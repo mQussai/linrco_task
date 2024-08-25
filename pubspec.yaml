@@ -1,0 +1,25 @@
+name: linrco_task
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.6
+  get: 4.6.6
+  flutter: 
+    sdk: flutter
+  flutter_simple_calculator: ^2.3.0
+  fibonacci: ^0.0.2
+  overlay_loader_with_app_icon:
+    git:
+        url: https://github.com/mQussai/OverlayLoaderWithAppIcon
+dev_dependencies: 
+  flutter_lints: 4.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
